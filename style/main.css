@@ -45,7 +45,7 @@ header nav a:hover{
 /*Anime principal*/
 .anime_principal{
     font-size: 20px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/Demon slayer banner.png');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/Demon_slayer_banner.png');
 
     height: 800px;
     background-size: cover;
@@ -96,12 +96,20 @@ header nav a:hover{
     margin-right: 9px;
 }
 
-.box-anime{
-    border-radius: 3px;
-    height: 10%;
-    width: 10%;
-    display: block;
+.titulo_carrossel{
+    font-family: Arial;
+    margin-left: 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.titulo_carrosel{
+.box-anime{
+    border-radius: 3px;
+    display: block;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.carrosel-animes{
+    margin-top: 5px;
 }
