@@ -1,0 +1,107 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414FF;
+}
+
+/*CORPO DO SITE*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Arial', Arial, serif;
+}
+
+body{
+    background: var(--preta);
+    color: white;
+}
+
+/* MENU SUPERIOR*/
+.logo{
+    margin-left: 3rem;
+    color: var(--vermelho);
+    font-family:'Arial Black';
+    font-size: 30px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 15px;
+}
+
+header nav a:hover{
+    color: #FFF;
+}
+
+/*Anime principal*/
+.anime_principal{
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/Demon slayer banner.png');
+
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.anime_principal .descricao{
+    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-top: 20px;
+
+}
+
+.titulo_animes{
+    font-size: 50px;
+    margin-left: 5%;
+
+}
+
+.botoes{
+    margin-left: 5%;
+}
+
+.botao{
+    font-size: 16px;
+    font-family: 'Trebuchet MS';
+
+    background-color: rgba(143,143,143,.20);
+    border: none;
+    border-radius: 3px;
+    color: white;
+
+    padding: 15px 20px;
+    margin-right: 1%;
+
+    cursor: pointer;
+    transition:.5s ease all;
+}
+.botao:hover{
+    background-color: #FFF;
+    color:black;
+}
+
+.botao i{
+    margin-right: 9px;
+}
+
+.box-anime{
+    border-radius: 3px;
+    height: 10%;
+    width: 10%;
+    display: block;
+}
+
+.titulo_carrosel{
+}
